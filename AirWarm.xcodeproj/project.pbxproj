@@ -15,6 +15,7 @@
 		040DF025208602C1002F8B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040DF023208602C1002F8B6A /* LaunchScreen.storyboard */; };
 		040DF030208602C1002F8B6A /* AirWarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040DF02F208602C1002F8B6A /* AirWarmTests.m */; };
 		040DF03B208602C1002F8B6A /* AirWarmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040DF03A208602C1002F8B6A /* AirWarmUITests.m */; };
+		040DF05020860C9B002F8B6A /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040DF04F20860C9B002F8B6A /* TabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		040DF036208602C1002F8B6A /* AirWarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirWarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040DF03A208602C1002F8B6A /* AirWarmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirWarmUITests.m; sourceTree = "<group>"; };
 		040DF03C208602C1002F8B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040DF04E20860C9B002F8B6A /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		040DF04F20860C9B002F8B6A /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		040DF009208602C1002F8B6A = {
 			isa = PBXGroup;
 			children = (
+				040DF04D20860ABB002F8B6A /* ThirdCode  */,
 				040DF014208602C1002F8B6A /* AirWarm */,
 				040DF02E208602C1002F8B6A /* AirWarmTests */,
 				040DF039208602C1002F8B6A /* AirWarmUITests */,
@@ -105,6 +109,11 @@
 				040DF019208602C1002F8B6A /* AppDelegate.m */,
 				040DF01B208602C1002F8B6A /* ViewController.h */,
 				040DF01C208602C1002F8B6A /* ViewController.m */,
+				040DF04E20860C9B002F8B6A /* TabBarController.h */,
+				040DF04F20860C9B002F8B6A /* TabBarController.m */,
+				040DF05120860D2F002F8B6A /* Controller */,
+				040DF05420860D99002F8B6A /* View */,
+				040DF05520860DAF002F8B6A /* Model */,
 				040DF01E208602C1002F8B6A /* Main.storyboard */,
 				040DF021208602C1002F8B6A /* Assets.xcassets */,
 				040DF023208602C1002F8B6A /* LaunchScreen.storyboard */,
@@ -138,6 +147,36 @@
 				040DF03C208602C1002F8B6A /* Info.plist */,
 			);
 			path = AirWarmUITests;
+			sourceTree = "<group>";
+		};
+		040DF04D20860ABB002F8B6A /* ThirdCode  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "ThirdCode ";
+			sourceTree = "<group>";
+		};
+		040DF05120860D2F002F8B6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		040DF05420860D99002F8B6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		040DF05520860DAF002F8B6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				040DF01D208602C1002F8B6A /* ViewController.m in Sources */,
+				040DF05020860C9B002F8B6A /* TabBarController.m in Sources */,
 				040DF01A208602C1002F8B6A /* AppDelegate.m in Sources */,
 				040DF017208602C1002F8B6A /* main.m in Sources */,
 			);
