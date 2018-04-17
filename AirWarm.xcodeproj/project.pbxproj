@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040DF017208602C1002F8B6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040DF016208602C1002F8B6A /* main.m */; };
+		040DF01A208602C1002F8B6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040DF019208602C1002F8B6A /* AppDelegate.m */; };
+		040DF01D208602C1002F8B6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040DF01C208602C1002F8B6A /* ViewController.m */; };
+		040DF020208602C1002F8B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040DF01E208602C1002F8B6A /* Main.storyboard */; };
+		040DF022208602C1002F8B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040DF021208602C1002F8B6A /* Assets.xcassets */; };
+		040DF025208602C1002F8B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040DF023208602C1002F8B6A /* LaunchScreen.storyboard */; };
+		040DF030208602C1002F8B6A /* AirWarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040DF02F208602C1002F8B6A /* AirWarmTests.m */; };
+		040DF03B208602C1002F8B6A /* AirWarmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040DF03A208602C1002F8B6A /* AirWarmUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040DF02C208602C1002F8B6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040DF00A208602C1002F8B6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040DF011208602C1002F8B6A;
+			remoteInfo = AirWarm;
+		};
+		040DF037208602C1002F8B6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040DF00A208602C1002F8B6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040DF011208602C1002F8B6A;
+			remoteInfo = AirWarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040DF012208602C1002F8B6A /* AirWarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirWarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040DF016208602C1002F8B6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040DF018208602C1002F8B6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040DF019208602C1002F8B6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040DF01B208602C1002F8B6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		040DF01C208602C1002F8B6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		040DF01F208602C1002F8B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040DF021208602C1002F8B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040DF024208602C1002F8B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040DF026208602C1002F8B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040DF02B208602C1002F8B6A /* AirWarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirWarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040DF02F208602C1002F8B6A /* AirWarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirWarmTests.m; sourceTree = "<group>"; };
+		040DF031208602C1002F8B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040DF036208602C1002F8B6A /* AirWarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirWarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040DF03A208602C1002F8B6A /* AirWarmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirWarmUITests.m; sourceTree = "<group>"; };
+		040DF03C208602C1002F8B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040DF00F208602C1002F8B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040DF028208602C1002F8B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040DF033208602C1002F8B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040DF009208602C1002F8B6A = {
+			isa = PBXGroup;
+			children = (
+				040DF014208602C1002F8B6A /* AirWarm */,
+				040DF02E208602C1002F8B6A /* AirWarmTests */,
+				040DF039208602C1002F8B6A /* AirWarmUITests */,
+				040DF013208602C1002F8B6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040DF013208602C1002F8B6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040DF012208602C1002F8B6A /* AirWarm.app */,
+				040DF02B208602C1002F8B6A /* AirWarmTests.xctest */,
+				040DF036208602C1002F8B6A /* AirWarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040DF014208602C1002F8B6A /* AirWarm */ = {
+			isa = PBXGroup;
+			children = (
+				040DF018208602C1002F8B6A /* AppDelegate.h */,
+				040DF019208602C1002F8B6A /* AppDelegate.m */,
+				040DF01B208602C1002F8B6A /* ViewController.h */,
+				040DF01C208602C1002F8B6A /* ViewController.m */,
+				040DF01E208602C1002F8B6A /* Main.storyboard */,
+				040DF021208602C1002F8B6A /* Assets.xcassets */,
+				040DF023208602C1002F8B6A /* LaunchScreen.storyboard */,
+				040DF026208602C1002F8B6A /* Info.plist */,
+				040DF015208602C1002F8B6A /* Supporting Files */,
+			);
+			path = AirWarm;
+			sourceTree = "<group>";
+		};
+		040DF015208602C1002F8B6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				040DF016208602C1002F8B6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		040DF02E208602C1002F8B6A /* AirWarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				040DF02F208602C1002F8B6A /* AirWarmTests.m */,
+				040DF031208602C1002F8B6A /* Info.plist */,
+			);
+			path = AirWarmTests;
+			sourceTree = "<group>";
+		};
+		040DF039208602C1002F8B6A /* AirWarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				040DF03A208602C1002F8B6A /* AirWarmUITests.m */,
+				040DF03C208602C1002F8B6A /* Info.plist */,
+			);
+			path = AirWarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040DF011208602C1002F8B6A /* AirWarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040DF03F208602C1002F8B6A /* Build configuration list for PBXNativeTarget "AirWarm" */;
+			buildPhases = (
+				040DF00E208602C1002F8B6A /* Sources */,
+				040DF00F208602C1002F8B6A /* Frameworks */,
+				040DF010208602C1002F8B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirWarm;
+			productName = AirWarm;
+			productReference = 040DF012208602C1002F8B6A /* AirWarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040DF02A208602C1002F8B6A /* AirWarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040DF042208602C1002F8B6A /* Build configuration list for PBXNativeTarget "AirWarmTests" */;
+			buildPhases = (
+				040DF027208602C1002F8B6A /* Sources */,
+				040DF028208602C1002F8B6A /* Frameworks */,
+				040DF029208602C1002F8B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040DF02D208602C1002F8B6A /* PBXTargetDependency */,
+			);
+			name = AirWarmTests;
+			productName = AirWarmTests;
+			productReference = 040DF02B208602C1002F8B6A /* AirWarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		040DF035208602C1002F8B6A /* AirWarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040DF045208602C1002F8B6A /* Build configuration list for PBXNativeTarget "AirWarmUITests" */;
+			buildPhases = (
+				040DF032208602C1002F8B6A /* Sources */,
+				040DF033208602C1002F8B6A /* Frameworks */,
+				040DF034208602C1002F8B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040DF038208602C1002F8B6A /* PBXTargetDependency */,
+			);
+			name = AirWarmUITests;
+			productName = AirWarmUITests;
+			productReference = 040DF036208602C1002F8B6A /* AirWarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040DF00A208602C1002F8B6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JACK;
+				TargetAttributes = {
+					040DF011208602C1002F8B6A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					040DF02A208602C1002F8B6A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 040DF011208602C1002F8B6A;
+					};
+					040DF035208602C1002F8B6A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 040DF011208602C1002F8B6A;
+					};
+				};
+			};
+			buildConfigurationList = 040DF00D208602C1002F8B6A /* Build configuration list for PBXProject "AirWarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040DF009208602C1002F8B6A;
+			productRefGroup = 040DF013208602C1002F8B6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040DF011208602C1002F8B6A /* AirWarm */,
+				040DF02A208602C1002F8B6A /* AirWarmTests */,
+				040DF035208602C1002F8B6A /* AirWarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040DF010208602C1002F8B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040DF025208602C1002F8B6A /* LaunchScreen.storyboard in Resources */,
+				040DF022208602C1002F8B6A /* Assets.xcassets in Resources */,
+				040DF020208602C1002F8B6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040DF029208602C1002F8B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040DF034208602C1002F8B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040DF00E208602C1002F8B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040DF01D208602C1002F8B6A /* ViewController.m in Sources */,
+				040DF01A208602C1002F8B6A /* AppDelegate.m in Sources */,
+				040DF017208602C1002F8B6A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040DF027208602C1002F8B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040DF030208602C1002F8B6A /* AirWarmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040DF032208602C1002F8B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040DF03B208602C1002F8B6A /* AirWarmUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040DF02D208602C1002F8B6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040DF011208602C1002F8B6A /* AirWarm */;
+			targetProxy = 040DF02C208602C1002F8B6A /* PBXContainerItemProxy */;
+		};
+		040DF038208602C1002F8B6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040DF011208602C1002F8B6A /* AirWarm */;
+			targetProxy = 040DF037208602C1002F8B6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		040DF01E208602C1002F8B6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040DF01F208602C1002F8B6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040DF023208602C1002F8B6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040DF024208602C1002F8B6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040DF03D208602C1002F8B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		040DF03E208602C1002F8B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040DF040208602C1002F8B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AirWarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AirWarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		040DF041208602C1002F8B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AirWarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AirWarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		040DF043208602C1002F8B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AirWarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AirWarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirWarm.app/AirWarm";
+			};
+			name = Debug;
+		};
+		040DF044208602C1002F8B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AirWarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AirWarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirWarm.app/AirWarm";
+			};
+			name = Release;
+		};
+		040DF046208602C1002F8B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AirWarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AirWarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AirWarm;
+			};
+			name = Debug;
+		};
+		040DF047208602C1002F8B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AirWarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AirWarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AirWarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040DF00D208602C1002F8B6A /* Build configuration list for PBXProject "AirWarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040DF03D208602C1002F8B6A /* Debug */,
+				040DF03E208602C1002F8B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040DF03F208602C1002F8B6A /* Build configuration list for PBXNativeTarget "AirWarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040DF040208602C1002F8B6A /* Debug */,
+				040DF041208602C1002F8B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		040DF042208602C1002F8B6A /* Build configuration list for PBXNativeTarget "AirWarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040DF043208602C1002F8B6A /* Debug */,
+				040DF044208602C1002F8B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		040DF045208602C1002F8B6A /* Build configuration list for PBXNativeTarget "AirWarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040DF046208602C1002F8B6A /* Debug */,
+				040DF047208602C1002F8B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040DF00A208602C1002F8B6A /* Project object */;
+}
